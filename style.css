@@ -15,6 +15,7 @@ nav {
   align-items: center;
   padding: 2rem 1.5rem;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 .icon-hamburger {
   width: 40px;
@@ -41,6 +42,7 @@ nav {
 }
 #about h1 {
   color: rgba(0, 0, 39, 0.904);
+  font-size: 1.8rem;
 }
 .about-card {
   display: flex;
@@ -111,4 +113,78 @@ nav {
   line-height: 1.5;
   opacity: 0.6;
   margin-bottom: 1rem;
+}
+#blogs {
+  padding-inline: 1rem;
+  text-align: center;
+  margin-block: 3rem;
+}
+#blogs h1 {
+  margin-block: 1rem;
+  font-size: 1.8rem;
+  color: rgba(0, 0, 39, 0.904);
+}
+#blogs p {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+.blog-cards {
+  display: grid;
+  gap: 15px;
+  margin-block: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.blogs {
+  max-width: 305px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #fff;
+  text-align: start;
+  border: 3px solid #00c6ff;
+  /* border-image: linear-gradient(135deg, #00c6ff, #0072ff) 1; */
+}
+.blogs img {
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+figure {
+  max-width: 300px;
+}
+figcaption {
+  padding: 1rem;
+}
+figcaption h3 {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 39, 0.904);
+}
+figcaption p {
+  font-size: 1.2rem;
+  opacity: o.7;
+  line-height: 1.5;
+  margin-block: 1rem;
+}
+figure button {
+  padding: 1.2rem 1.5rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  background: rgb(141, 204, 255);
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+figure button:hover {
+  background: #00c6ff;
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
 }
