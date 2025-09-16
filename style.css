@@ -85,3 +85,30 @@ nav {
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
 }
+#services {
+  display: flex;
+  margin-block: 3rem;
+}
+.hidden {
+  display: none;
+}
+#services h1 {
+  color: rgba(0, 0, 39, 0.904);
+  font-size: 1.8rem;
+  text-align: center;
+}
+.service-info {
+  margin-top: 1.3rem;
+  padding-inline: 1.3rem;
+}
+.service-info h3 {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 39, 0.904);
+  margin-block: 1rem;
+}
+.service-info p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
