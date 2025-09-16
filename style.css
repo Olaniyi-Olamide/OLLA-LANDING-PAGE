@@ -189,7 +189,7 @@ figure button:hover {
   transition-timing-function: ease-in;
 }
 footer {
-  background: rgb(22, 22, 22);
+  background: rgb(2, 2, 2);
   padding: 1.5rem 1rem;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
