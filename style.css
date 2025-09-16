@@ -188,3 +188,91 @@ figure button:hover {
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
 }
+footer {
+  background: rgb(22, 22, 22);
+  padding: 1.5rem 1rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
+}
+footer h2 {
+  font-size: 1.4rem;
+  margin-block: 1rem;
+}
+.footer-top {
+  display: flex;
+  flex-direction: column;
+}
+.email-logo {
+  color: white;
+}
+.question {
+  margin-block: 1rem;
+}
+.question p {
+  font-size: 1rem;
+  margin-block: 1rem;
+}
+.footer-blogs {
+  margin-block: 1rem;
+}
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-block: 1rem;
+}
+.blog img {
+  width: 100px;
+  height: 100px;
+}
+aside span {
+  margin-left: 0.2rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.footer-links ul li {
+  list-style: none;
+}
+.footer-links ul li a {
+  color: #fff;
+  opacity: 0.7;
+  text-decoration: none;
+  font-size: 1.3rem;
+  line-height: 2;
+}
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+.subscribe form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+form input {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background: rgba(39, 39, 39, 0.795);
+  color: #fff;
+  border: none;
+  margin-block: 1rem;
+}
+form button {
+  padding: 1rem 2rem;
+  background: #00c6ff;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+}
+.socials img {
+  margin-inline: 1rem;
+}
