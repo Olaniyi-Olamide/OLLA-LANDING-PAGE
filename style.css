@@ -86,6 +86,7 @@ nav {
   transition: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
+  opacity: 0.7;
 }
 #services {
   display: flex;
@@ -137,8 +138,8 @@ nav {
 }
 .blogs {
   max-width: 305px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background: #fff;
@@ -387,9 +388,10 @@ form button:hover {
   .blog-cards {
     display: grid;
     column-gap: 5rem;
+    row-gap: 1.2rem;
     margin-block: 1rem;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   #blogs {
     display: flex;
