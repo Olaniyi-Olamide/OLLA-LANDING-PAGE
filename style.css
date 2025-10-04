@@ -13,12 +13,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 1.5rem;
+  padding: 1rem 1.5rem;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .icon-hamburger {
-  width: 40px;
+  width: 30px;
 }
 .hero {
   width: 100%;
